@@ -1,0 +1,29 @@
+<div class="main" class="row">
+	<div id="promo-text" class="col-lg-12 col-xs-12">
+		New 2019 Gibson Collection-Modern updates and classics revisted 
+		<a href="#" class="promo_link">Shop Now</a>
+	</div>
+	<div class="row">
+		<img src="../assets/Images/logo.png" alt="logo" id="guitarLogo" class="col-lg-2">
+		<div class="col-lg-7">
+			<img src="../assets/Images/location.png" alt="location" class="icons">
+				<span class="icon_text">Store Finder</span>
+			<img src="../assets/Images/card2.png" alt="card2" class="icons">
+				<span class="icon_text">Gift Cards</span>
+			<img src="../assets/Images/card.png" alt="card" class="icons">
+				<span class="icon_text">Get 24-Month* Financing and Earn 5% Back in Rewards</span>
+		</div>
+		<div class="row">
+			<app-search class="col-lg-8"></app-search>
+			<div class="col-lg-2">
+				<button class="btns">Sign In</button>
+				<button class="btns" [routerLink]="['../cart']">Cart</button>
+				<span id="countSpan">0</span>
+			</div>
+		</div>	
+	</div>
+	<div class="row">
+		<app-nav class="col-lg-12"></app-nav>
+	</div>
+	<router-outlet></router-outlet>
+</div>

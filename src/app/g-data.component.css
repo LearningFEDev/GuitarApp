@@ -1,0 +1,88 @@
+#detailContainer{
+	height: 600px;
+	width: 90%;
+	margin-left: 70px;
+}
+#name{
+	font-size: 30px;
+	margin-left: 20px;
+	padding-top: 20px;
+	font-weight: 500;
+}
+#number{
+	margin-left: 22px;
+	font-size: 12px;
+	word-spacing: 3px;
+}
+#guitImg{
+	height: 400px;
+	width: 400px;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+#rate{
+	height: 17px;
+	margin-left: 200px;
+	margin-top: -40px;
+}
+#discount{
+	height: 30px;
+	margin-left: 20px;
+}
+#descp{
+	margin-left: 40px;
+}
+#priceCont{
+	background-color: #f8f8f8;
+	height: 300px;
+	width: 300px;
+	border: 1px solid #e7e7e7;
+	margin-left: 40px;
+}
+#price{
+	font-size: 40px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+#cart{
+	height: 50px;
+	width: 200px;
+	color: white;
+	font-size: 20px;
+	background-color: #cd2418;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+input{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+.countbtn{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.counter{
+	margin-top: 40px;
+	margin-left: 80px;
+}
+#review{
+	display: inline-block;
+	margin-left: 120px;
+	color: black;
+	font-size: 12px;
+	font-weight: 400;
+}
+#store{
+	margin-top: 20px;
+	margin-left: 40px;
+	color: black;
+}
+#shipping{
+	width: 450px;
+	height: 140px;
+	margin-top: 20px;
+}

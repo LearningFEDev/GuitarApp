@@ -1,0 +1,62 @@
+.main{
+	height: 900px;
+}
+
+#promo-text{
+	box-sizing: border-box;
+	position: relative;
+	background-color: #EDEFF2;
+	font-family: arial;
+	text-align: center;
+	height: 44px;
+	padding-top: 15px;
+	word-spacing: 4px;
+	font-size: 15px;
+}
+.promo_link{
+	color: red;
+	font-size: 16px;
+	font-weight: 600;
+	word-spacing: -2px;
+	text-decoration: none;
+}
+#guitarLogo{
+	height: 87px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.icons{
+	height: 35px;
+}
+.icon_text{
+	font-weight: 500;
+	margin-left: 7px;
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.btns{
+	height: 40px;
+	width: 80px;
+	margin-right: 20px;
+	border-style: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: #909497;
+}
+.btns:hover{
+	border: 1px solid #E5E7E9;
+	border-radius: 5px;
+	background-color: #F2F1F2;
+	color: #B03A2E;
+}
+#countSpan{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left: -14px;
+	font-size: 20px;
+	margin-top: 16px;
+	cursor: default;
+}

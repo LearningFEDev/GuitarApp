@@ -1,0 +1,22 @@
+<div class="row">
+<div id="detailContainer" class="col-lg-12">
+	<img src="../assets/Images/Discount.png" alt="discount" id="discount">
+	<div id="name">{{detail.Name}}</div>
+	<div id="number">Item #: {{detail.ItemNum}} <a href="#" id="review">Write a review</a></div>
+	<img id="rate" src="../assets/Images/rating.png" alt="rate">
+	<div class="row">
+	<img src={{detail.src}} alt="guitar" class="col-lg-4" id="guitImg">
+	<div id="descp" class="col-lg-4"><h4>Product Description:</h4>{{detail.productDes}}
+		<img src="../assets/Images/shipping.png" alt="shipping" id="shipping">
+	</div>
+	<div id="priceCont" class="col-lg-4">
+		<div id="price"><h5>From:</h5>${{detail.Price}}</div>
+		<div id="store">
+		<a href="#">Check Availablity in Store</a>	
+		</div>
+		<div class="counter"><button class="countbtn" (click)='subtract(lf)' #lf>-</button><input type="text" value='{{count}}'><button class="countbtn" (click)="add(rf)" #rf>+</button></div>
+		<button id="cart" [routerLink]="['../../cart']" (click)='sendInfo()'>Add to Cart</button>
+	</div>
+</div>
+</div>
+</div>

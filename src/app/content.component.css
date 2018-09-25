@@ -1,0 +1,18 @@
+.sideBar{
+	height: 300px;
+	border: 1px solid #D0D3D4;
+	position: fixed;
+	width: 350px;
+	margin-left: 5px;
+}
+.sideCont{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+span{
+	font-size: 30px;
+	font-weight: 600;
+}
+li{
+	list-style: none;
+}

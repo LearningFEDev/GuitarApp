@@ -1,0 +1,50 @@
+.cellMain{
+	height: 450px;
+	width: 250px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	margin-left: 10px;
+}
+.cellMain:hover{
+	cursor: pointer;
+	border: 1px solid #BDC3C7;
+	box-shadow: 2px 2px #E5E7E9;
+	
+}
+.imgGuitar{
+	padding-top: 40px;
+}
+.gName{
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	font-size: 12px;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.price{
+	position: relative;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #cd2418;
+
+}
+.priceStyle{
+	font-size: 20px;
+}
+.topSeller{
+	border: 1px solid black;
+	color: black;
+	width: 70px;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 160px;
+	margin-top: 5px;
+}
+.extraInfo{
+	text-align: center;
+	margin-top: 10px;
+}

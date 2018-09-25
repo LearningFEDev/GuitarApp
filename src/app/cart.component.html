@@ -1,0 +1,24 @@
+<div class="cartContainer">
+	<button id="continue" [routerLink]="['../guitar']">Continue Shopping</button>
+	<button id="checkout">Proceed to Checkout</button>
+	<div class="heading"><span class="title">Shopping Cart</span><div id="decor"></div></div>
+	<table>
+		<tr>
+			<th class="item">Item</th>
+			<th class="priceT">Price</th>
+			<th class="empty"></th>
+			<th class="quantity">Quantity</th>
+			<th class="total">Total</th>
+		</tr>
+		<tr *ngFor="let obj of data">
+			<td>{{obj[0].Name}}</td>	
+			<td>${{obj[0].Price}}</td>
+			<td>X</td>
+			<td><input type="text" value='{{obj[0].Quantity}}'></td>
+			<td>${{obj[0].total}}</td>
+		</tr>
+		
+	</table>
+	<div></div>
+</div>
+ 

@@ -1,0 +1,23 @@
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="sideBar">
+				<div class="sideCont">
+				<span>Category</span>
+				<ul>
+					<li><input type="checkbox"> Acoustic</li>
+					<li><input type="checkbox"> Electric</li>
+				</ul>	
+				<span>Price Range</span>
+				<ul>
+					<li><input type="checkbox"> $0-$500</li>
+					<li><input type="checkbox"> $500-$1000</li>
+					<li><input type="checkbox"> $1000-$3000</li>
+					<li><input type="checkbox"> I'm rich. Got $$$ to spend</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-9">
+			<app-cell *ngFor="let obj of musicData" [display]='obj'></app-cell>
+		</div>
+	</div>

@@ -1,0 +1,20 @@
+.submenuopt{
+	padding-right: 35px;
+	padding-left: 5px;
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 13px;
+}
+.submenu{
+	width: 1420px;
+	height: 24px;
+}
+li{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: 600;
+}
+#menusub{
+	background-color:#EDEFF2 ;
+}
